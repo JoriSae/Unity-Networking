@@ -84,6 +84,5 @@ public class Client : MonoBehaviour
     {
         string message = GameObject.Find("SendInput").GetComponent<InputField>().text;
         Send(message);
-
     }
 }
